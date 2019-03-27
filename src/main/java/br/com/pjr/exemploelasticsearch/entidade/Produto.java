@@ -14,7 +14,7 @@ import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 
-@Document(indexName = "apiprodutos", type = "produto", shards = 2)
+@Document(indexName = "exemplo", type = "produto", shards = 2)
 @Data
 @Builder
 @NoArgsConstructor
